@@ -14,7 +14,6 @@
 		1176CE041F97F97400C75DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1176CE021F97F97400C75DFC /* LaunchScreen.storyboard */; };
 		1176CE1C1F97FBCD00C75DFC /* Slider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1176CE101F97F98700C75DFC /* Slider.framework */; };
 		1176CE1D1F97FBCD00C75DFC /* Slider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1176CE101F97F98700C75DFC /* Slider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1176CE221F97FBE000C75DFC /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1176CE161F97FB8200C75DFC /* pop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,6 @@
 		1176CE031F97F97400C75DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1176CE051F97F97400C75DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1176CE0B1F97F98700C75DFC /* Slider.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Slider.xcodeproj; path = ../Slider.xcodeproj; sourceTree = "<group>"; };
-		1176CE161F97FB8200C75DFC /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = ../Carthage/Build/iOS/pop.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1176CE221F97FBE000C75DFC /* pop.framework in Frameworks */,
 				1176CE1C1F97FBCD00C75DFC /* Slider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,7 +112,6 @@
 		1176CE121F97F9F200C75DFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1176CE161F97FB8200C75DFC /* pop.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

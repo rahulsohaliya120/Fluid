@@ -1,0 +1,17 @@
+{
+  "commitish" : "d35421b239e22cdb0efe204b3068d840b7e1adc1",
+  "iOS" : [
+    {
+      "container" : "pop.xcframework",
+      "name" : "pop",
+      "identifier" : "ios-arm64",
+      "hash" : "ca85bc0ccd273be95b989e52ec64fe4016eba80afebd969c1adfad91bc50c6c1"
+    },
+    {
+      "hash" : "d91a6a7ae819bae944c62bf5fe39da46f593fd20adbcd688d8056ddc817ca71a",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "pop",
+      "container" : "pop.xcframework"
+    }
+  ]
+}
